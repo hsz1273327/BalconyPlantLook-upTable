@@ -1,9 +1,9 @@
 remote_theme: Drassil/git-wiki-theme@master
 # (string) Title of your wiki
-title: "git-wiki-skeleton"
+title: "BalconyPlantLook-upTable"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
-baseurl: "/git-wiki-skeleton"
+baseurl: "/BalconyPlantLook-upTable"
 # (string) Description of your wiki
 description:
 # (boolean) disable edit functionalities (edit/delete/add pages)
@@ -51,7 +51,7 @@ google_cse_token:
 
 # (string) path of site root. Normally it's must be empty because _config.yml resides in the root of your repository.
 # If you have _config.yml and your site in a subfolder, then change this config accordly 
-site_root: 
+site_root: http://blog.hszofficial.site/BalconyPlantLook-upTable
 
 #
 # Jekyll configurations
