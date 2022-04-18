@@ -70,13 +70,8 @@ kramdown:
   syntax_highlighter: rouge
 
 defaults:
- -
+ - 
     scope:
-      path: ""
-    values:
-      layout: "git-wiki-bs-github"
-
- -  scope:
       path: "wiki"
     values:
       permalink: /:basename
@@ -90,8 +85,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      layout: "git-wiki-bs-github"
- 
+      layout: "git-wiki-default"
  -
     scope:
       path: ""
