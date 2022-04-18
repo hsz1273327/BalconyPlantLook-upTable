@@ -1,19 +1,94 @@
-# git-wiki-skeleton
+# 阳台种植速查手册
 
-NOTE: it's fully supported by github platform, you don't need to install anything locally
+本文是一个速查手册,`pages`部分是速查表,主要是名词解释,`posts`部分是种植记录
 
-This is a [skeleton](skeleton) repository that can be used as a template to bootstrap your wiki using "[remote_theme](https://github.com/benbalter/jekyll-remote-theme)" config
+## 环境介绍
 
-For documentation, installation guide and demo of git-wiki-theme visit [THIS PAGE](http://drassil.github.io/git-wiki/)
+作者生活在深圳(属于北半球亚热带向热带过渡型海洋性气候).温度方面这里常年温度不会低于5度,10度以下通常只会持续一周(通常在2月),但30度以上可以持续半年以上(5月至11月).这里是海滨城市,常年湿度很高,一般都超过40%,有超过一般的时间湿度超过60%.每年的3月至4月间会有一段湿度报表的时间人称回南天.
 
-## The git-wiki project
+作者的种植环境是一个9层西阳台和两个西窗台.阳台面积约2平方米,且轮廓为圆形,较为奇葩,阳台外边缘是约1米高的水泥围栏,因此在阳台下部1m高度范围内通风和光照都会受影响.由于外面有高楼挡光,所以在每年的10月以后到次年的3月都晒不到太阳,剩下的时间可以晒到下午2点10分到晚上6点左右大约4个小时的西晒.由于西晒的原因7月8月无遮阳设施条件下阳台温度可以最高到40度,而室内两个窗台由于有玻璃和纱窗少量遮阳,最高温度大致可以在38度.
 
-The git-wiki project is composed by 3 different repository:
+除了家中的场地,还有楼顶(21层)全日照环境,不过由于是公共空间且过去比较麻烦所以一般不用.
 
-- [git-wiki-theme](https://github.com/Drassil/git-wiki-theme): This is the repository of the theme that implements the wiki functionalities. You would have not fork it unless you need to send a Pull Request or create your wiki project from scratch.
+## 设备介绍
 
-- [git-wiki-skeleton](https://github.com/Drassil/git-wiki-skeleton): This is the repo that you should fork or use as a template. It uses the [jekyll remote theme](https://github.com/benbalter/jekyll-remote-theme) functionality that allows you to create your own wiki based on git-wiki-theme. By using the remote functionality you can automatically keep your wiki always updated with latest features from the **git-wiki-theme**, but you can also fully customize it. 
+上面的环境介绍可以知道相对而言种植的难点在于
 
-- [git-wiki](https://github.com/Drassil/git-wiki): This is the documentation repository and website of the **git-wiki-theme** project. You would have not fork it unless you want to contribute to the git-wiki project documentation.
+1. 场地过小
+2. 夏季高温
+3. 冬季缺光
 
-Version: 1.0.8
+针对上面的3个难点,作者购置了如下设备用于改善环境
+
+1. 购置2架子(长70cm宽40cm左右)用于垫高提供更大的可用面积用于种植
+2. 购置若干挂架可以将盆子挂载防盗框上(两层)
+3. 购置5cm见方孔径的挂网挂在防盗网上可以挂载板植植物或者其他可以用挂钩的小盆
+4. 购置遮阳网夏季防晒
+5. 40w的植物补光灯作为顶灯可以用于高处喜阴植物补光(离的远衰减大),30w的植物补光灯作为低处喜光植物的补光设备(离得近衰减小).不过一般除了阴天雨天或者工作日上午也不开.
+
+除此之外还有一些额外设备做特殊使用
+
+1. 照度仪
+2. ph试纸
+3. 3mm,6mm,9mm孔径的筛子
+4. 若干900ml的一次性塑料汤碗用于给小盆泡盆
+5. 几个最大号的一次性酸菜鱼汤碗用于给大盆泡盆
+6. 一套园艺剪刀
+7. 一个低压水泵可以用于抽水浇水
+8. 一个电动喷枪可以用于大面积喷水
+9. 一个超声波雾化器用于构造植物icu
+
+## 偏好介绍
+
+由于客观条件个人基本只种点相对耐阴的植物,而个人种植物比较功利,希望养出来的植物能有用所以有如下期待
+
+1. 可以开花
+2. 可以放香
+3. 可以吃
+4. 小巧不占地方
+
+因此种的品种主要包括:
+
++ 兰科植物
++ 多肉
++ 栀子
++ 热植
+
+## 评价标准
+
+本文会涉及对不同品种的评价,评价就需要有标准否则无法对比.本文的评价标准如下:
+
+1. 适合场景,会针对地栽,庭院,露台,阳台,窗台5个场景给出打分,最高10分最低1分,同时给出一个理由
+2. 栽培难度,会针对光照,温度,湿度,抗性四个角度给出评价.由于植物生长分阶段,不同阶段的栽培阶段在一年中的时间范围不同,难度也不同所以这部分评价标准将是一个矩阵表其形式为,以春兰为例:
+
+    评估项目|花期|发芽期|生长期|春化期
+    ---|---|---|---|---
+    时令范围|冬至至春分|春分至立夏|立夏至立冬|立冬至冬至
+    最低光照需要|
+    最高光照耐受度|
+    最低光照需求|
+    最优光照时长|全日照|全日照|全日照|全日照
+
+
+   + 光照,分为最低光照需要(光补偿点),最高光照耐受度(晒伤点而非光饱和点)和最优光照时长3个维度.
+        光照强度建议范围:
+        + 低光,1klux以上2klux,大约是白天墙角无光处的强度
+        + 中低光,2klux以上5klux以下,大约是白天北阳台外侧照不到时的亮度
+        + 中光,5klux以上10klux以下,大约是太阳透过纱窗玻璃直射的强度
+        + 中高光,10klux以上20klux以下,大约是早上8点左右或者下午4点左右太阳直射的强度
+        + 高光,20klux以上40klux以下,大约是大夏天中午阳台上光线最好位置的光照强度
+        + 暴晒,40klux以上(通常最高100klux),大约就是大夏天中午太阳直射的强度
+
+        光照时长受阳台条件限制则可以分为:
+        + 全日照(6至8小时)
+        + 半日照(3至4小时)
+
+    + 温度,一般
+
+## 免责申明
+
+本文记录的都是基于深圳住所环境下的种植经验,并不具备普适性.一般来说适用于气候相近的两广福建,再向北或者向南就没法确保适用了.
+
+
+
+
