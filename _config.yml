@@ -1,6 +1,6 @@
 remote_theme: Drassil/git-wiki-theme@master
 # (string) Title of your wiki
-title: "BalconyPlantLook-upTable"
+title: "阳台种植速查手册"
 # (string) if you've installed your wiki in subfolder, you must change this configuration
 # with your folder name, otherwise leave it empty
 baseurl: "/BalconyPlantLook-upTable"
